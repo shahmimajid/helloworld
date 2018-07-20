@@ -21,7 +21,7 @@ func main() {
 	log.Println("Starting helloworld application...")
 
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
-		fmt.Fprintf(w, "Hello Shahmi!\n")
+		fmt.Fprintf(w, "Hello Build!\n")
 	})
 
 	http.HandleFunc("/health", func(w http.ResponseWriter, r *http.Request) {
